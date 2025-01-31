@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Tapan's Food</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Tapan's Food</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html" class="active">Menu</a></li>
+            <li><a href="#">Restaurants</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <button class="login-btn">Login</button>
+            <button class="cart-btn"><i class="fas fa-shopping-cart"></i></button>
+        </div>
+    </nav>
+
+    <div class="menu-header">
+        <h1 class="animate-3d">Our Menu</h1>
+        <div class="menu-categories">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="starters">Starters</button>
+            <button class="category-btn" data-category="main">Main Course</button>
+            <button class="category-btn" data-category="desserts">Desserts</button>
+            <button class="category-btn" data-category="drinks">Drinks</button>
+        </div>
+    </div>
+
+    <section class="menu-grid" id="menuGrid">
+        <!-- Menu items will be added dynamically via JavaScript -->
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tapan's Food</h3>
+                <p>Delivering happiness to your doorstep</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@tapansfood.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Tapan's Food. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>
